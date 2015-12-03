@@ -61,7 +61,7 @@ function roll (min, max) {
 
 
 function send (payload, callback) {
-  var path = '/T0FEHEXFU/B0FELK8AW/gh44va7RJe2VFjy44HLdt5HI';
+  var path = 'YOUR PATH SEE TUTORIAL FOR DETAILS';
   var uri = 'https://hooks.slack.com/services' + path;
 
   request({

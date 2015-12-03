@@ -17,13 +17,15 @@ Next - Choose the name of your command - I suggest /roll but really you can use 
 
 
 Then - Set up the finer points of the Slash command: pay attention to the fact that the web address needs to be on port 3000 because thats the port that we're listening to. Also make sure that you set your method to POST not GET.
-![Alt tag](/https://github.com/sqiggg/Slack-Bot/blob/master/Roll%20bot/tutorial_images/slash_settings.png?raw=true "Configuring Slash commands")
+![Alt tag](https://github.com/sqiggg/Slack-Bot/blob/master/Roll%20bot/tutorial_images/slash_settings.png?raw=true "Configuring Slash commands")
+
 
 After you've done that, we can move on to setting up the incoming webhook. To do this we need to again search for an integration, but this time we need to search for incoming webhook.
 ![Alt tag](https://github.com/sqiggg/Slack-Bot/blob/master/Roll%20bot/tutorial_images/incoming_webhook.png?raw=true "Searching for the Incoming Webhook integration")
 
+
 Next we need to setup the incoming webhook integration. The important bit here is that we need to get the url and put it into the path variable that is located in the send function near the bottom of dicebot.js.
-![Alt tag](/tutorial_images/https://github.com/sqiggg/Slack-Bot/blob/master/Roll%20bot/tutorial_images/ow_settings.png.png?raw=true "Configuring the incoming webhook")
+![Alt tag](https://github.com/sqiggg/Slack-Bot/blob/master/Roll%20bot/tutorial_images/ow_settings.png.png?raw=true "Configuring the incoming webhook")
 
 
 Thats it now heres the end product:
